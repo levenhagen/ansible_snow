@@ -3,14 +3,14 @@
 - name: Create change request
   servicenow.itsm.change_request:
     instance:
-      host: https://dev56505.service-now.com/
-      username: admin
-      password: QuwMae17ZdUV
+      host: "{{ snow_credentials.instance | default(snow_instance, true)}}" 
+      username: "{{ snow_credentials.username | default(snow_username, true)}}"
+      password: "{{ snow_credentials.password | default(snow_password, true)}}"
 
     type: standard
     state: new
     requested_by: admin
-    short_description: Install new Cisco
+    short_description: Install new Cisco Appliance
     description: Please install new Cat. 6500 in Data center 01
     priority: moderate
     risk: low
