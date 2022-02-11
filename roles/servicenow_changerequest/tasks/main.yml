@@ -1,0 +1,20 @@
+---
+# tasks file for snow-acm
+- name: Create change request
+  servicenow.itsm.change_request:
+    instance:
+      host: https://dev56505.service-now.com/
+      username: admin
+      password: QuwMae17ZdUV
+
+    type: standard
+    state: new
+    requested_by: bernardo
+    short_description: Install new Cisco
+    description: Please install new Cat. 6500 in Data center 01
+    priority: moderate
+    risk: low
+    impact: low
+
+    other:
+      expected_start: 2021-02-12

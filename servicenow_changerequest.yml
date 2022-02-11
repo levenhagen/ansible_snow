@@ -1,0 +1,11 @@
+---
+
+- name: Create ServiceNOW Ticket
+  hosts: localhost
+  connection: local
+  gather_facts: true
+  run_once: true
+
+  tasks:
+  - include_role:
+      name: servicenow_changerequest
