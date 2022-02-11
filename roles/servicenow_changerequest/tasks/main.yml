@@ -9,7 +9,7 @@
 
     type: standard
     state: new
-    requested_by: "bernardo"
+    requested_by: admin
     short_description: Install new Cisco
     description: Please install new Cat. 6500 in Data center 01
     priority: moderate
