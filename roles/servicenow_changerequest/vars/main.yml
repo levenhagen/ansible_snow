@@ -1,8 +1,2 @@
 ---
 # vars file for snow-acm
-# snow_record variables
-snow_username: admin
-snow_password: CHANGEME
-snow_instance: CHANGEME
-
-#other default variables
