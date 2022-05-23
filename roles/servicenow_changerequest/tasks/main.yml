@@ -18,6 +18,7 @@
 
     other:
       expected_start: 2022-12-12
+  register: output
 - debug:
-    var: number
+    var: output
     verbosity: 2
