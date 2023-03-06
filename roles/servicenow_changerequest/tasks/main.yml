@@ -10,8 +10,8 @@
     type: standard
     state: new
     requested_by: admin
-    short_description: A brief description of the change goes here.
-    description: A whole description of the change goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...
+    short_description: Ticket created by the Ansible + RHACM integration.
+    description: Ticket created by the Ansible + RHACM integration. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...
     priority: moderate
     risk: low
     impact: low
