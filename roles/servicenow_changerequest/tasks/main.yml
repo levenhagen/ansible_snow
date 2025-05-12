@@ -14,9 +14,6 @@
     priority: moderate
     risk: low
     impact: low
-
-    other:
-      expected_start: 2022-12-12
   register: output
 - debug:
     var: output
